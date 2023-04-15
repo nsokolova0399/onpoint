@@ -18,12 +18,12 @@ import Header from "../../component/Header/Header";
 function Page2({current, setCurrent}) {
     const [popup, setPopup] = useState(false);
 
-    const openPopup = () =>{
+    const openPopup = () => {
         setPopup(true)
     }
     return (
         <>
-            <Header setCurrent={setCurrent} />
+            <Header setCurrent={setCurrent}/>
             <img src={bubble3} alt={bubble3} className="bubble3"/>
             <img src={bottle} alt={bottle} className="bottle"/>
             <img src={bubble5} alt={bubble5} className="bubble5"/>
@@ -54,11 +54,11 @@ function Page2({current, setCurrent}) {
                    A arcu cursus vitae
                 </span>
             </div>
-            <span className="btnPage2Button">
-            <button onClick={openPopup} >
-                <img src={btn} alt={btn} className="btnPage2"/>
+            <button onClick={openPopup} className="btnPage2Button">
+                <div className="buttonPopup" >
+                    <img src={btn} alt={btn} className="btnPage2"/>
+                </div>
             </button>
-            </span>
             {popup && (
                 <Popup popup={popup} setPopup={setPopup} />
             )}

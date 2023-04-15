@@ -24,11 +24,11 @@ function Page1({current, setCurrent}) {
     const handlerTouchMove = (e) => {
         if (e.touches[0].clientY >= startY+ scroll.current.getBoundingClientRect().height/2 && e.touches[0].clientY <= ((startY + endY) - scroll.current.getBoundingClientRect().height/2)) {
             if(e.touches[0].clientY > 500){
-                scroll.current.style.top = `${e.touches[0].clientY - startY-20}px`
-                message.current.scrollTop = (e.touches[0].clientY - startY+50)
+                scroll.current.style.top = `${e.touches[0].clientY - startY+2*scroll.current.getBoundingClientRect().height}px`
+                message.current.scrollTop = (e.touches[0].clientY - startY+scroll.current.getBoundingClientRect().height)
             }else{
-                scroll.current.style.top = `${e.touches[0].clientY - startY-30}px`
-                message.current.scrollTop = (e.touches[0].clientY - startY-50)
+                scroll.current.style.top = `${e.touches[0].clientY - startY+2*scroll.current.getBoundingClientRect().height-15}px`
+                message.current.scrollTop = (e.touches[0].clientY - startY-scroll.current.getBoundingClientRect().height)
             }
         }
     };

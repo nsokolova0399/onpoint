@@ -2,7 +2,7 @@
     position: absolute;
     width: 1024px;
     height: 768px;
-    z-index: 47;
+    z-index: 48;
     top:0;
 }
 
@@ -15,6 +15,7 @@
     height: 38px;
     z-index: 45;
 }
+
 .bubble5 {
     opacity: 0.929;
     position: absolute;
@@ -102,10 +103,10 @@
     position: absolute;
     left: 346px;
     top: 198px;
-    z-index: 40;
     display: inline-block;
     letter-spacing: 0.055em;
     line-height: 1.2;
+    z-index: 87;
 }
 
 .textBrendBold{
@@ -179,11 +180,11 @@
     width: 263.5px;
     height: 80.5px;
     left:682.5px;
-    top:539.5px;
-    z-index: 0;
+    top:564.5px;
 }
 
 .btnPage2Button{
     background-color: rgba(0,0,0,0);
     border: rgba(0,0,0,0);
+    z-index: 50;
 }

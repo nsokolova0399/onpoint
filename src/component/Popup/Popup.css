@@ -3,7 +3,8 @@
     width: 1024px;
     height: 768px;
     top:0;
-    opacity: 100%;
+    opacity: 0.702;
+    z-index: 65;
 }
 
 .popupRectangle{
@@ -13,6 +14,98 @@
     background-color: rgb(255, 255, 255);
     position: absolute;
     left: 140.5px;
-    top: 85px;
-    z-index: 40;
+    top: 108.5px;
+    z-index: 66;
+}
+
+.bottleImg{
+    position: absolute;
+    left: 10.5px;
+    top: 65.5px;
+    width: 315px;
+    height: 702.5px;
+    z-index: 68;
+}
+
+.btnClose{
+    position: absolute;
+    width: 33.5px;
+    height: 34.5px;
+    top: 141.5px;
+    left:892px;
+}
+
+.btnCloseButton{
+    background-color: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+}
+
+.btnPopup{
+    z-index: 86;
+    top: 169.5px;
+}
+
+.textDescription{
+    position: absolute;
+    top: 336.5px;
+    left:353px;
+    z-index: 78;
+    color: rgb(46, 46, 46);
+}
+
+.prev{
+    position: absolute;
+    width: 9px;
+    height: 15.5px;
+    left:355.5px;
+    top: 645.5px;
+}
+
+.next{
+    position: absolute;
+    width: 9px;
+    height: 15.5px;
+    left:433px;
+    top: 645.5px;
+}
+.textDescriptionIdText{
+    padding-bottom: 23.5px;
+    font-size: 25px;
+    width: 489px;
+}
+.textDescriptionId{
+    position: absolute;
+    font-family: "Gilroy ExtraBold";
+    color: rgb(140, 201, 232);
+    font-weight: bold;
+    left: 0;
+    z-index: 81;
+}
+
+.textDescriptionText{
+    z-index: 81;
+    padding-top: 35px;
+    font-family: "DIN Pro";
+}
+
+.ellipseleft{
+    left:382.5px;
+}
+.ellipseright{
+    left:401.5px;
+}
+.ellipse{
+    position: absolute;
+    width: 10.5px;
+    height: 10.5px;
+    top:648px;
+    z-index: 81;
+}
+
+.ellipsePink{
+    position: absolute;
+    width: 10.5px;
+    height: 10.5px;
+    top:648px;
+    z-index: 81;
 }

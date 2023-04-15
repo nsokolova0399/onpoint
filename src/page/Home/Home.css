@@ -17,7 +17,6 @@
         transform: scale(1.5) translateY(-25px);
     }
 }
-
 @keyframes slidein1 {
     0% {
         transform: rotate(0deg) translateX(0px);
@@ -37,18 +36,21 @@
 
 .layer4copy2{
     position: absolute;
-    margin-top: -21.5px;
+    top: 30px;
     width: 71px;
     height: 68.5px;
-    right: 36px;
+    left:917px;
+    z-index: 14;
 }
+
 .layer5{
     position: absolute;
-    margin-top: 10.5px;
+    top: 61.5px;
     width: 62.5px;
     height: 57px;
-    right: 217px;
+    left: 744.5px;
     animation: 20s linear 1s infinite slidein;
+    z-index: 15;
 }
 
 .layer7{
@@ -56,16 +58,17 @@
     width: 125.5px;
     height: 115.5px;
     left: 0;
-    margin-top: 21.5px;
+    top: 72.5px;
+    z-index: 16;
 }
 
 .pink_sperm1{
     position: absolute;
     width: 591.5px;
     height: 92.5px;
-    right: 0;
-    margin-top: 104px;
-    z-index: 10;
+    left: 432.5px;
+    top: 155px;
+    z-index: 11;
 }
 
 .textHello{
@@ -73,7 +76,7 @@
     font-size: 27px;
     font-family: "DIN Pro";
     left: 69.5px;
-    margin-top: 117px;
+    top: 168.5px;
     margin-bottom: 0;
     height: 23.5px;
     width: 180px;
@@ -85,11 +88,12 @@
     position: absolute;
     width: 110.5px;
     height: 113.5px;
-    right: 52px;
-    margin-top: 149.5px;
-    z-index: 2000;
+    left: 861.5px;
+    top: 200.5px;
+    z-index: 17;
     animation: 5s linear 1s infinite slidein1;
 }
+
 .textTask{
     position: absolute;
     padding-top: 0;
@@ -99,7 +103,7 @@
     line-height: 117px;
     letter-spacing:0.05em;
     left: 69.5px;
-    margin-top: 159px;
+    top: 212px;
     margin-bottom: 0;
 }
 
@@ -108,7 +112,7 @@
     width: 288.5px;
     height: 80.5px;
     left: 627px;
-    margin-top: 413.5px;
+    top: 464.5px;
 }
 
 .bakti{
@@ -116,8 +120,8 @@
     width: 73px;
     height: 71px;
     left: 22.5px;
-    margin-top: 452.5px;
-    z-index: -1;
+    top: 503.5px;
+    z-index: 4;
     animation: 5s linear 1s infinite slidein3;
 }
 
@@ -125,8 +129,9 @@
     position: absolute;
     width: 279.5px;
     height: 124px;
-    left: 0;
-    margin-top: 542px;
+    left: -134px;
+    top: 593px;
+    z-index: 3;
 }
 
 .layer4copy{
@@ -134,7 +139,8 @@
     width: 84.5px;
     height: 77.5px;
     left: 347.5px;
-    margin-top: 580px;
+    top: 631px;
+    z-index: 13;
 }
 
 .layer4{
@@ -142,7 +148,7 @@
     width: 227.5px;
     height: 126.5px;
     left: 542px;
-    margin-top: 587px;
+    top: 641.5px;
     animation: 30s linear 1s infinite slidein2;
+    z-index: 12;
 }
-

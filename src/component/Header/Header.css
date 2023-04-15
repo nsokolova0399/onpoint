@@ -1,9 +1,9 @@
 .header{
-    margin-top: 25.5px;
     margin-left: 66px;
 
 }
 .header img{
+    top: 25.5px;
     width: 153px;
     height: 25.5px;
     position: relative;
