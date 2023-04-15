@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react'
-import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Home from "../../page/Home/Home";
 import Page1 from "../../page/Page1/Page1";
@@ -13,7 +12,7 @@ function ImageSlider({ diffx, diffy}) {
             if(diffx > 0) setCurrent(current === 0 ? len - 1 : current - 1)
             else setCurrent(current === len - 1 ? 0 : current + 1)
         }
-    }, [diffx, diffy])
+    }, [diffx, diffy, current, len])
 
     return (
         <>

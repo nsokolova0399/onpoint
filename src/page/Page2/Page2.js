@@ -23,7 +23,7 @@ function Page2({current, setCurrent}) {
     }
     return (
         <>
-            <Header current={current} setCurrent={setCurrent} />
+            <Header setCurrent={setCurrent} />
             <img src={bubble3} alt={bubble3} className="bubble3"/>
             <img src={bottle} alt={bottle} className="bottle"/>
             <img src={bubble5} alt={bubble5} className="bubble5"/>

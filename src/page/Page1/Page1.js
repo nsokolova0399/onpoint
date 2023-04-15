@@ -46,7 +46,7 @@ function Page1({current, setCurrent}) {
 
     return (
         <>
-            <Header current={current} setCurrent={setCurrent} />
+            <Header setCurrent={setCurrent} />
             <img src={Layer3copy4} className="Layer3copy4" alt="layer"/>
             <img src={Layer3copy2} className="Layer3copy2" alt="layer"/>
             <img src={Layer3copy6} className="Layer3copy6" alt="layer"/>

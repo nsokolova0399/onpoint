@@ -15,7 +15,7 @@ import Header from "../../component/Header/Header";
 function Home({current, setCurrent}) {
     return (
         <>
-            <Header current={current} setCurrent={setCurrent}/>
+            <Header setCurrent={setCurrent}/>
             <div className="home">
                 <img className="layer4copy2" src={layer4copy2} alt="layer4copy2"></img>
                 <img className="layer5" src={layer5} alt="layer5"></img>

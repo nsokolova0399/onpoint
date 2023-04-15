@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 import logo from './global.png';
 
-function Header({current, setCurrent}) {
+function Header({setCurrent}) {
     const firstSlide = () => {
         setCurrent(0)
     };
