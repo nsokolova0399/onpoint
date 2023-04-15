@@ -1,0 +1,148 @@
+@keyframes slidein3 {
+    0%,100%{
+        transform: translateX(0px) translateY(0px);
+    }
+    40%,80%{
+        transform: translateX(10px) translateY(20px);
+    }
+    60%{
+        transform: translateX(25px) translateY(30px);
+    }
+}
+@keyframes slidein2 {
+    0%, 100%{
+        transform: scale(1) translateY(0px);
+    }
+    50%{
+        transform: scale(1.5) translateY(-25px);
+    }
+}
+
+@keyframes slidein1 {
+    0% {
+        transform: rotate(0deg) translateX(0px);
+    }
+    100% {
+        transform: rotate(360deg) translateX(0px);
+    }
+}
+@keyframes slidein {
+    0%, 100%{
+        transform: translateX(0px)
+    }
+    50%{
+        transform: translateX(150px)
+    }
+}
+
+.layer4copy2{
+    position: absolute;
+    margin-top: -21.5px;
+    width: 71px;
+    height: 68.5px;
+    right: 36px;
+}
+.layer5{
+    position: absolute;
+    margin-top: 10.5px;
+    width: 62.5px;
+    height: 57px;
+    right: 217px;
+    animation: 20s linear 1s infinite slidein;
+}
+
+.layer7{
+    position: absolute;
+    width: 125.5px;
+    height: 115.5px;
+    left: 0;
+    margin-top: 21.5px;
+}
+
+.pink_sperm1{
+    position: absolute;
+    width: 591.5px;
+    height: 92.5px;
+    right: 0;
+    margin-top: 104px;
+    z-index: 10;
+}
+
+.textHello{
+    position: absolute;
+    font-size: 27px;
+    font-family: "DIN Pro";
+    left: 69.5px;
+    margin-top: 117px;
+    margin-bottom: 0;
+    height: 23.5px;
+    width: 180px;
+    line-height: normal;
+    color: rgb(36, 36, 36);
+}
+
+.layer8{
+    position: absolute;
+    width: 110.5px;
+    height: 113.5px;
+    right: 52px;
+    margin-top: 149.5px;
+    z-index: 2000;
+    animation: 5s linear 1s infinite slidein1;
+}
+.textTask{
+    position: absolute;
+    padding-top: 0;
+    font-size: 109px;
+    width: 912.5px;
+    font-family: "Gilroy";
+    line-height: 117px;
+    letter-spacing:0.05em;
+    left: 69.5px;
+    margin-top: 159px;
+    margin-bottom: 0;
+}
+
+.btnHome{
+    position: absolute;
+    width: 288.5px;
+    height: 80.5px;
+    left: 627px;
+    margin-top: 413.5px;
+}
+
+.bakti{
+    position: absolute;
+    width: 73px;
+    height: 71px;
+    left: 22.5px;
+    margin-top: 452.5px;
+    z-index: -1;
+    animation: 5s linear 1s infinite slidein3;
+}
+
+.pink_sperm{
+    position: absolute;
+    width: 279.5px;
+    height: 124px;
+    left: 0;
+    margin-top: 542px;
+}
+
+.layer4copy{
+    position: absolute;
+    width: 84.5px;
+    height: 77.5px;
+    left: 347.5px;
+    margin-top: 580px;
+}
+
+.layer4{
+    position: absolute;
+    width: 227.5px;
+    height: 126.5px;
+    left: 542px;
+    margin-top: 587px;
+    animation: 30s linear 1s infinite slidein2;
+}
+

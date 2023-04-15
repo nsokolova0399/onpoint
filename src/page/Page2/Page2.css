@@ -1,0 +1,189 @@
+.bottle{
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+    z-index: 47;
+    top:0;
+}
+
+.bubble3 {
+    opacity: 0.929;
+    position: absolute;
+    left: 197.5px;
+    top: 65.5px;
+    width: 37px;
+    height: 38px;
+    z-index: 45;
+}
+.bubble5 {
+    opacity: 0.929;
+    position: absolute;
+    left: 184px;
+    top: 155.5px;
+    width: 68px;
+    height: 69px;
+    z-index: 53;
+}
+
+
+.bubble1 {
+    opacity: 0.878;
+    position: absolute;
+    left: 77px;
+    top: 212.5px;
+    width: 34px;
+    height: 34px;
+    z-index: 47;
+}
+
+.bubble2 {
+    opacity: 0.929;
+    position: absolute;
+    left: 186.5px;
+    top: 317px;
+    width: 112.5px;
+    height: 112px;
+    z-index: 46;
+}
+.bubble7 {
+    opacity: 0.929;
+    position: absolute;
+    left: 10.5px;
+    top: 453.5px;
+    width: 33px;
+    height: 33px;
+    z-index: 51;
+}
+
+.bubble8 {
+    opacity: 0.929;
+    position: absolute;
+    left: 25px;
+    top: 553.5px;
+    width: 74.5px;
+    height: 74.5px;
+    z-index: 50;
+}
+.bubble4 {
+    opacity: 0.929;
+    position: absolute;
+    left: 242px;
+    top: 591px;
+    width: 61.5px;
+    height: 61.5px;
+    z-index: 44;
+}
+
+.bubble6 {
+    opacity: 0.929;
+    position: absolute;
+    left: 183.5px;
+    top: 703px;
+    width: 142.5px;
+    height: 65px;
+    z-index: 52;
+}
+
+.textKey{
+    font-size: 27px;
+    font-family: "DIN Pro";
+    color: rgb(36, 36, 36);
+    position: absolute;
+    left: 353px;
+    top: 170px;
+    z-index: 40;
+}
+
+
+.textBrend{
+    font-size: 95px;
+    font-family: "Gilroy Regular";
+    color: rgb(36, 36, 36);
+    position: absolute;
+    left: 346px;
+    top: 198px;
+    z-index: 40;
+    display: inline-block;
+    letter-spacing: 0.055em;
+    line-height: 1.2;
+}
+
+.textBrendBold{
+    font-family: "Gilroy ExtraBold";
+}
+
+.icon2{
+    position: absolute;
+    width: 67.5px;
+    height: 63px;
+    left:353px;
+    top:346px;
+    z-index: 40;
+}
+.icon1{
+    position: absolute;
+    width: 67.5px;
+    height: 63px;
+    left:741.5px;
+    top:354px;
+    z-index: 40;
+}
+
+.rectangle1{
+    width: 413.5px;
+    height: 265px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2.723px 4.1935px 116.25px 8.75px rgba(157, 185, 198, 0.39);
+    position: absolute;
+    left: 222px;
+    top: 379px;
+    z-index: 38;
+}
+.rectangle1Text{
+    position: absolute;
+    font-size: 25px;
+    font-family: "DIN Pro";
+    color: rgb(46, 46, 46);
+    line-height: 1.2;
+    left: 131px;
+    top: 56.5px;
+    z-index: 39;
+}
+.rectangle2{
+    width: 263px;
+    height: 150px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2.723px 4.1935px 116.25px 8.75px rgba(157, 185, 198, 0.39);
+    position: absolute;
+    left: 701px;
+    top: 379px;
+    z-index: 38;
+}
+
+.rectangle2Text{
+    position: absolute;
+    font-size: 25px;
+    font-family: "DIN Pro";
+    color: rgb(46, 46, 46);
+    line-height: 1.2;
+    left: 44.5px;
+    top: 51px;
+    width: 134px;
+    z-index: 39;
+}
+
+.btnPage2{
+    position: absolute;
+    width: 263.5px;
+    height: 80.5px;
+    left:682.5px;
+    top:539.5px;
+    z-index: 0;
+}
+
+.btnPage2Button{
+    background-color: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+}

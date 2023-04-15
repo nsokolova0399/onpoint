@@ -1,0 +1,18 @@
+.newRectangle{
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+    top:0;
+    opacity: 100%;
+}
+
+.popupRectangle{
+    width: 822.5px;
+    height: 573px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 140.5px;
+    top: 85px;
+    z-index: 40;
+}
